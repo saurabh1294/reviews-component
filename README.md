@@ -25,3 +25,7 @@ with the following command/s:-
 
 protactor tests/conf.js - this will run UI and js test cases
 by launching application in browser
+
+
+
+Note:- There is scope for code optimization. That's pending due to shortage of time.
