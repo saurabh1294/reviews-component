@@ -1,18 +1,19 @@
 // tests-spec.js
-var usersList = ['Sean','Yaw','Lucy','Eric','Rory','Hayley'];
-describe('PeopleSearch homepage', function() {
-	it('should show PeopleSearch page', function() {
-		browser.get('http://localhost/stayz-ui-development-test/review.html');
 
-		//var people = element.all(by.repeater('user in filteredPeople'));
-
+describe('Reviews component', function() {
+	it('should show Reviews component page', function() {
+		browser.get('http://localhost/reviews-component/review.html');
 		console.log("Running UI tests");
 
-		/*for (index = 0; index < usersList.length; index++) {
-			var name = people.get(index).element(by.css("#listName")).getText();
-			console.log("matching label",index, " with ", usersList[index]);
-			expect(name).toMatch(usersList[index]);
-		}*/
+		var username, usernames=[], index;
+		var commentators = ["Brendan", "Belinda", "Jacqueline T.", "Christian F", "Karina M.", "Peter M."];
+		for (index = 0; index < commentators.length; index++) {
+			element.all(by.css('cite.fn')).get(index).evaluate('reviews.username').then(function(name) {
+				 username = name;
+				 console.log(username, commentators[index]);
+				 expect(username).toBe(commentators[index]);
+			});
+		}
 	});
 });
 
