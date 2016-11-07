@@ -29,3 +29,5 @@ by launching application in browser
 
 
 Note:- There is scope for code optimization. That's pending due to shortage of time.
+Some tests need to be completed as well. Work in progress as there were some installation
+and config issues in setting up selenium web driver and protracor.
