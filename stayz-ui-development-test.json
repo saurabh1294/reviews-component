@@ -1,0 +1,98 @@
+{
+    "averageRating": 5,
+    "statistics": {
+        "snapshot": [
+            {
+                "ratingValue": 1,
+                "count": 0
+            },
+            {
+                "ratingValue": 2,
+                "count": 0
+            },
+            {
+                "ratingValue": 3,
+                "count": 0
+            },
+            {
+                "ratingValue": 4,
+                "count": 1
+            },
+            {
+                "ratingValue": 5,
+                "count": 5
+            }
+        ],
+        "categories": {
+            "quality": 4.5,
+            "cleanliness": 5,
+            "location": 5,
+            "comfort": 5
+        }
+    },
+    "reviews": [
+        {
+            "id": 0,
+            "username": "Brendan",
+            "title": "Great location and fantastic property!!!!",
+            "submissionTime": "2016-06-21T03:22:06.000+00:00",
+            "reviewText": "The location was fantastic as a launching pad for a variety of local activities as close to cairns and a cab would always arrive within 5 minutes of booking. The house was big, clean and contained all the creature comforts. The backdrop of the creek and rainforest made for a relaxing and enjoyable escape. The plentiful amount of rooms and bathrooms ensured that as a big group, no one was stepping on each other's toes",
+            "rating": 5,
+            "response": {
+                "username": "Gary",
+                "submissionTime": "2016-06-29T03:22:06.000+00:00",
+                "reviewText": "Thanks. Your comments are appreciated"
+            }
+        },
+        {
+            "id": 1,
+            "username": "Belinda",
+            "title": "Balinese Retreat",
+            "submissionTime": "2016-06-17T03:22:06.000+00:00",
+            "reviewText": "Thankyou so much for our beautiful stay at Wanggulay. We had the most relaxing long weekend. The pool was a massive hit with the kids.",
+            "rating": 5,
+            "response": {
+                "username": "Gary",
+                "submissionTime": "2016-06-29T03:22:06.000+00:00",
+                "reviewText": "You're welcome"
+            }
+        },
+        {
+            "id": 2,
+            "username": "Jacqueline T.",
+            "title": "Beautiful property well maintained",
+            "submissionTime": "2015-09-08T03:22:06.000+00:00",
+            "reviewText": "We stayed in Wanggulay Bali for a week in August. It was wonderful. We were a family of 10, with children ranging from 10 up to teenagers, 5 of us are adults. The house did not at any time feel cramped or overcrowded. It is beautifully decorated and very clean. We really enjoyed the spa pool and deck area and it was lovely to be able to sit together as a family and eat outside. There is plenty to do in the area and the downloadable guide was very useful as was Brett's recommendation for diving with silver sonic at Port Douglas. I can fully recommend staying here and would not hesitate to come back if I had the opportunity.",
+            "rating": 5
+        },
+        {
+            "id": 3,
+            "username": "Christian F",
+            "title": "Perfect",
+            "submissionTime": "2014-09-15T03:22:06.000+00:00",
+            "reviewText": "We had some wonderful days at Wanggulay. The house is great. The location on one hand inside the rain forest and on the other side near to Cairns is perfect to visit the surroundings. We had been kayaking at Babinda, had a scenic flight over the great barrier reef, been snorkeling at the outer reef and been at Kuranda via skyrail and train. Best you can do",
+            "rating": 5,
+            "response": {
+                "username": "Gary",
+                "submissionTime": "2016-07-01T03:22:06.000+00:00",
+                "reviewText": "Thanks Christian F."
+            }
+        },
+        {
+            "id": 4,
+            "username": "Karina M.",
+            "title": "Relaxing Hideaway",
+            "submissionTime": "2014-08-25T03:22:06.000+00:00",
+            "reviewText": "Thank you for providing such a beautiful home. We were able to check-in slightly early which was great for a group of tired bodies. The minute we walked into the house, we were instantly relaxed. The view through the treetops was magical especially with a cup of tea and breakfast in the morning. It was the perfect refuge to come back to after busy days of sightseeing and activities. We will definitely stay here again and recommend this treetops house to anyone wanting a relaxing tropical holiday.",
+            "rating": 4
+        },
+        {
+            "id": 5,
+            "username": "Peter M.",
+            "title": "Amazing location and beautiful house",
+            "submissionTime": "2014-08-13T03:22:06.000+00:00",
+            "reviewText": "Amazing location in the rainforest, a great heated spa-pool, and an excellent house with everything that 'opens and shuts'! Wanggulay has a warm feeling with timber floors and top-class fittings. We really enjoyed our stay here - 100% recommended.",
+            "rating": 5
+        }
+    ]
+}

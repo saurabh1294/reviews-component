@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<!-- base libraries -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+type="text/css"/>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<!-- base libraries -->
+
+
+
+<!-- custom libraries dev version -->
+<!-- <link rel="stylesheet" href="src/css/review-styles.css" type="text/css"/>
+<script src="src/js/reviewController.js"></script>
+<script src="src/js/reviewsService.js"></script> -->
+<!-- custom libraries dev version -->
+
+
+<!-- custom libraries prod version -->
+<link rel="stylesheet" href="dist/prod/review.component.min.css" type="text/css"/>
+<script src="dist/prod/review.component.min.js"></script>
+<!-- custom libraries prod version -->
+
+<html>
+	<body>
+
+		<div class="review-component-wrapper container" ng-app="reviewComponent" ng-controller="reviewsCtrl">
+		<section id="comments-template">
+			<div class="comments-wrap ">
+				<article id="comments">
+					<h1 ng-hide="nextThree" id="comments-number" class="comments-header">
+						{{numReviews/2}} Reviews			
+					</h1>
+					
+					<h1 ng-show="nextThree" id="comments-number" class="comments-header">
+						{{numReviews}} Reviews			
+					</h1>
+					
+					<ol class="comment-list">
+					
+						<!-- first 3 comment set start here -->
+						<div id="top-3-views" ng-include src="'src/views/templates/reviews-first-three.html'">
+						
+						</div>
+						<!-- first 3 comment set end here -->
+						
+						
+						<div id="next-3" ng-show="nextThree" ng-include src="'src/views/templates/reviews-next-three.html'">
+						
+						</div>
+						<!-- next 3 comment set end here -->
+						
+					</ol>
+					<!-- .comment-list -->
+				</article>
+				
+			</div>
+			<!-- .comments-wrap -->
+		</section>
+
+
+		<button id="bottommore" ng-show="firstThree" type="button" class="btn btn-primary btn-lg btn-toggle" ng-click="expandCollapse()">Show more</button>
+		<button id="bottomless" ng-show="nextThree" type="button" class="btn btn-primary btn-lg btn-toggle" ng-click="expandCollapse()">Show less</button>
+		</div>
+
+	</body>
+</html>
